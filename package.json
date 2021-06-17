@@ -1,10 +1,23 @@
 {
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+    "build": "snowpack build"
   },
   "devDependencies": {
     "snowpack": "^3.3.7"
+  },
+  "dependencies": {
+    "automerge": "^1.0.1-preview.3",
+    "fast-json-patch": "^3.0.0-1",
+    "pubnub": "^4.32.1",
+    "react": "^17.0.2",
+    "react-dice-roll": "^1.1.1",
+    "react-dom": "^17.0.2",
+    "rfc6902": "^4.0.2",
+    "uint8-to-base64": "^0.2.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }
